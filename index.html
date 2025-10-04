@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>ITA Spa</title>
+ 
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="div-logo">
+        <img src="images/logo_ISTA spa.jpg" alt="Logo ITSA" />
+        <span id="ITSA">ITSA Spa</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#Accueil">Accueil</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Tarif">Tarifs</a></li>
+        <li><a href="#Galerie">Galerie</a></li>
+        <li><a href="#Temoignages-clients">Témoignages</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <img src="images/Tof.jpg" id="Accueil">
+  
+     <div class="corps"></div>
+  <section id="Services">
+    <div id="Nos-services">Nos Services</div>
+    <div class="corps-services">
+      <div class="tittre-service">Coiffure Mixte</div>
+      <div class="photo-services">
+        <div class="div-coifure-mixte"><img src="images/c.jpg" class="photo-coifure" alt="Coiffure" /></div>
+        <div class="div-coifure-mixte"><img src="images/coif2.jpg" class="photo-coifure" alt="Coiffure" /></div>
+        <div class="div-coifure-mixte"><img src="images/coif3.jpg" class="photo-coifure" alt="Coiffure" /></div>
+      </div>
+
+      <div class="tittre-service">Soins</div>
+      <div class="photo-services">
+        <div class="div-coifure-mixte"><img src="images/soin1.jpg" class="photo-coifure" alt="Soin" /></div>
+        <div class="div-coifure-mixte"><img src="images/Soin3.jpg" class="photo-coifure" alt="Soin" /></div>
+        <div class="div-coifure-mixte"><img src="images/Soin4.jpg" class="photo-coifure" alt="Soin" /></div>
+      </div>
+
+      <div class="tittre-service">Onglerie</div>
+      <div class="photo-services">
+        <div class="div-coifure-mixte"><img src="images/img4.jpg" class="photo-coifure" alt="Onglerie" /></div>
+        <div class="div-coifure-mixte"><img src="images/image7.jpg" class="photo-coifure" alt="Onglerie" /></div>
+        <div class="div-coifure-mixte"><img src="images/onglerie.jpg" class="photo-coifure" alt="Onglerie" /></div>
+      </div>
+
+      <div class="tittre-service">Massage</div>
+      <div class="photo-services">
+        <div class="div-coifure-mixte"><img src="images/massage.jpg" class="photo-coifure" alt="Massage" /></div>
+        <div class="div-coifure-mixte"><img src="images/massage2.jpg" class="photo-coifure" alt="Massage" /></div>
+        <div class="div-coifure-mixte"><img src="images/massage3.jpg" class="photo-coifure" alt="Massage" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Tableau-tarifs">
+    <div id="Titre-tarif">Tarifs des services</div>
+    <div id="Tarif">
+      <img src="images/tarif1.jpg" class="img-tarif" alt="Tarif 1" />
+      <img src="images/tarif2.jpg" class="img-tarif" alt="Tarif 2" />
+    </div>
+  </section>
+
+  <section id="Galerie">
+    <div id="Notre-Galerie">Notre Galerie</div>
+    <div id="photo-Galerie">
+      <div class="div-Galerie">
+        <img src="images/gal.jpg" class="img-Galerie" alt="Galerie" />
+        <div class="description-Galerie">Pour toutes vos coiffures nous sommes à votre disponibilité.</div>
+      </div>
+      <div class="div-Galerie">
+        <img src="images/img5.jpg" class="img-Galerie" alt="Galerie" />
+        <div class="description-Galerie">Vente de produits cosmétiques de qualité.</div>
+      </div>
+      <div class="div-Galerie">
+        <img src="images/gal1.jpg" class="img-Galerie" alt="Galerie" />
+        <div class="description-Galerie">Services esthétiques professionnels.</div>
+      </div>
+      <div class="div-Galerie">
+        <img src="images/img6.jpg" class="img-Galerie" alt="Galerie" />
+        <div class="description-Galerie">Vente de perruques et mèches haut de gamme.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Temoignages-clients">
+    <div id="Notre-Temoignages">Témoignages de nos clients</div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <div class="review"><div class="stars">★★★★★</div><p>Accueil impeccable et ambiance détendue !</p><small>— Mr NANFACK</small></div>
+        <div class="review"><div class="stars">★★★★★</div><p>Tresses top et équipe très pro. Merci !</p><small>—Mme PENKA</small></div>
+        <div class="review"><div class="stars">★★★★☆</div><p>Rapide et soigné. Je recommande !</p><small>— Mr FOKOU</small></div>
+        <div class="review"><div class="stars">★★★★★</div><p>Le soin visage m’a relaxé à 100%.</p><small>— Mme MOMDJO</small></div>
+        <div class="review"><div class="stars">★★★★★</div><p>Service au top à Bonamoussadi !</p><small>— Mr TALLA</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact">
+    <div id="Notre-Contact">Contactez-nous</div>
+    <div id="div-Contact">
+      <div id="div-form">
+        <form>
+          <label>Nom</label>
+          <input type="text" placeholder="Entrer votre nom" required />
+          <label>Email</label>
+          <input type="email" placeholder="Entrer votre adresse email" required />
+          <label>Message</label>
+          <textarea rows="5" placeholder="Entrer votre message" required></textarea>
+          <a id="btn-reserver-contact" href="https://wa.me/237688881922" target="_blank">Réserver maintenant</a>
+        </form>
+      </div>
+      <div class="div-localisation">
+        <img src="images/localisation ISTA SPA.png" alt="Localisation" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section id="section-footer">
+      <div class="element-footer">
+        <h4>Salon Bonamoussadi</h4>
+        <div class="lieu">Quartier Bonamoussadi, Douala, Cameroun<br>08h00 — 21h00, Lundi à Dimanche</div>
+      </div>
+      <div class="element-footer">
+        <h4>Liens</h4>
+        <div><a href="#Accueil">Accueil</a></div>
+        <div><a href="#Services">Services</a></div>
+        <div><a href="#Tarif">Tarifs</a></div>
+        <div><a href="#Galerie">Galerie</a></div>
+        <div><a href="#Temoignages-clients">Témoignages</a></div>
+        <div><a href="#Contact">Contact</a></div>
+      </div>
+      <div class="element-footer">
+        <h4>Contacts</h4>
+        <div>+237 682 74 20 24<br>Fokousandra88@gmail.com</div>
+        <a id="btn-footer" href="https://wa.me/237682742024" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+    <br />
+    <p>&copy;2025 Salon Bonamoussadi — Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>

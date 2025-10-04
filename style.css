@@ -1,0 +1,362 @@
+ 
+    /* RESET & GLOBAL */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+       background-color: rgb(194, 210, 241);;
+    align-items: center;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul {
+      list-style: none;
+    }
+    #Accueil{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    /* HEADER & NAVIGATION */
+    .header {
+      background-color: #d8b103;
+      color: white;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .div-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .div-logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    #ITSA {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      font-weight: 500;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      font-size: 1.5em;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* HERO/ACCUEIL SECTION */
+    #Accueil {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+    }
+    .corps {
+    color:rgb(114, 151, 221);
+    align-items: center;
+}
+
+
+    /* SERVICES */
+    #Nos-services {
+      text-align: center;
+      font-size: 2em;
+      margin: 40px 0 20px;
+    }
+
+    .corps-services {
+      padding: 0 20px;
+    }
+
+    .tittre-service {
+      font-size: 1.5em;
+      text-align: center;
+      margin: 20px 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #444;
+    }
+
+    .photo-services {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .div-coifure-mixte {
+      flex: 1 1 30%;
+      min-width: 180px;
+      max-width: 250px;
+       cursor: pointer;
+    transform: translateY(-15px);
+    box-shadow: 2px 0 6px 4px rgb(58, 56, 56);
+    }
+
+    .photo-coifure {
+      border-radius: 10px;
+    }
+
+    /* TARIFS */
+    #Titre-tarif {
+      font-size: 2em;
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    #Tarif {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .img-tarif {
+      width: 300px;
+      border-radius: 8px;
+    }
+
+    /* GALERIE */
+    #Notre-Galerie {
+      
+      text-align: center;
+      margin: 40px 0 20px;
+        color:rgb(17, 15, 15);
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    }
+
+    #photo-Galerie {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .div-Galerie {
+      max-width: 250px;
+       border: none;
+    height: 50vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(94, 91, 91, 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.6s;
+    }
+    .div-Galerie:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 0 6px 4px rgb(26, 25, 25);
+    border: none;
+
+}
+
+
+    .img-Galerie {
+      border-radius: 10px;
+        object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    }
+
+    .description-Galerie {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 0.9em;
+       object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    } 
+
+    
+
+
+    /* TEMOIGNAGES */
+    #Notre-Temoignages {
+      font-size: 2em;
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: rgb(149, 160, 182);
+      padding: 20px;
+    }
+
+    .marquee-track {
+      display: inline-block;
+      animation: marquee 25s linear infinite;
+    }
+
+    .review {
+      display: inline-block;
+      width: 350px;
+      margin: 0 15px;
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 15px;
+      background: linear-gradient(180deg, rgba(153, 208, 240, 0.932), rgba(255, 255, 255, .02));
+    
+    }
+
+    .stars {
+      color: gold;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* CONTACT */
+    #Notre-Contact {
+      font-size: 2em;
+      text-align: center;
+      margin:  20px;
+        width: 100%;
+    
+    }
+
+    #div-Contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      padding:  20px ;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+    }
+
+    input, textarea {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #btn-reserver-contact {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .div-localisation img {
+      max-width: 500px;
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #222;
+      color: white;
+      padding: 30px 20px;
+      font-size: 0.9em;
+    }
+
+    #section-footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-around;
+    }
+
+    .element-footer h4 {
+      margin-bottom: 10px;
+    }
+
+    .element-footer-lien a {
+      color: white;
+    }
+
+    #btn-footer {
+      background: #25d366;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    /* RESPONSIVE NAV */
+    @media screen and (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+    }
